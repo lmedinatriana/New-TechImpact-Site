@@ -1,0 +1,31 @@
+.btn-success {
+	background-color: #9242f4;
+	border-color: #c292fc;
+
+}
+
+.btn-success:hover {
+	background-color: #c292fc;
+}
+
+.btn-success:focus:active {
+	background-color: #c292fc !important;
+}
+
+.jumbo-banner {
+	background-image: url(../images/jumbi-banner-2.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	
+}
+
+.jumbotron{
+	color: #fff;
+	text-align: center;
+}
+
+
+#random-gif-container img {
+	width: 100%;
+}
