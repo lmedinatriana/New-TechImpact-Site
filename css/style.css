@@ -1,0 +1,77 @@
+.navbar-default {
+	margin-bottom: 0;
+	border: none;
+	border-radius: 0;
+	background-color: #000;
+}
+
+#jumbo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+	url('../images/top3.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: 0;
+}
+
+
+#jumbo-container h1, h3 {
+	color: #fff;
+} 
+
+.jumbotron {
+	background-color: transparent;
+}
+
+.cta-button {
+    background-color: #F1AD1F;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.cta-button:hover {
+	background-color: #e7e7e7;
+	transform: scale(1.1);
+}
+
+#main-container {
+	background-color: #fff;
+	background-size: cover;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.thumbnail {
+	background-color: #013A6B;
+	background-size: cover;
+    background-image: -webkit-linear-gradient(30deg, #F1AD1F 50%, #f3bd4b 50%);
+	padding: 30px;
+	border: 0px;
+}
+
+
+#container-program {
+	background-image: url('../images/img11.jpg');
+    padding: 70px 0px;
+    
+   }
+
+blockquote {
+	color: #fff;
+}
+
+#container-contact {
+	background-image: url('../images/middle1.jpg');
+    padding: 70px 0px;
+}
