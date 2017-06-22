@@ -17,7 +17,6 @@
 	url('../images/top3.jpg');
 	background-size: cover;
 	background-position: center;
-	width: 100vw;
 	height: 100vh;
 	margin-bottom: 0;
 }
@@ -37,12 +36,14 @@
     color: black;
     font-size: 20px;
     cursor: pointer;
+    color: #fff;
 
 }
 
 .cta-button:hover {
-	background-color: #e7e7e7;
+	background-color: #f3bd4b;
 	transform: scale(1.1);
+	color: #fff;
 }
 
 #main-container {
@@ -71,7 +72,15 @@ blockquote {
 	color: #fff;
 }
 
-#container-contact {
-	background-image: url('../images/middle1.jpg');
-    padding: 70px 0px;
+#container-info {
+	 background-image: -webkit-linear-gradient(30deg, #F1AD1F 50%, #f3bd4b 50%);
+	 clip-path: polygon(0 0, 0 100%, 100% 200px, 100% 0);
+	 padding: 70px 0px;
+	 overflow: visible;
+}
+
+footer{
+	background-color: #222222;
+	padding: 70px;
+	color: #fff;
 }
