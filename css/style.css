@@ -8,6 +8,22 @@
     border-radius: 0px;
     border: transparent;
     background:rgba(1,0,0,0.8);
+<<<<<<< HEAD
+}
+
+.nav-height .navbar-brand {
+  height: 120px;
+}
+
+.nav-height .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav-height .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+=======
+>>>>>>> gh-pages
 }
 
 .nav-height .navbar-brand {
@@ -23,6 +39,11 @@
   margin: 25px 15px 25px 0;
 }
 
+
+#header-2 {
+    color: #fff;
+    padding: 25px;
+}
 
 #header-2 {
     color: #fff;
@@ -105,12 +126,21 @@
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #333333;
     }
+<<<<<<< HEAD
 
     a {
         color: #fff;
         text-decoration: none;
     }
 
+=======
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+>>>>>>> gh-pages
     a:hover {
         color: #00a1de;
     }
@@ -205,6 +235,16 @@ blockquote {
      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25px);
      padding: 70px 0px;
      overflow: visible;
+<<<<<<< HEAD
+}
+
+.press-release {
+    color: #000;
+    font-weight: bold;
+}
+
+.press-release:hover {
+=======
 }
 
 .press-release {
@@ -230,6 +270,28 @@ footer {
 }
 
 .white-links:hover  {
+>>>>>>> gh-pages
     color: #e2e2e2;
     text-decoration: none;
 }
+
+<<<<<<< HEAD
+footer {
+    background-color: #222222;
+    padding: 70px;
+}
+
+.footer-h4{
+    color: #fff;
+}
+.white-links {
+    color: #737373;
+}
+
+.white-links:hover  {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+=======
+
+>>>>>>> gh-pages
