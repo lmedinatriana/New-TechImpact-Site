@@ -8,7 +8,6 @@
     border-radius: 0px;
     border: transparent;
     background:rgba(1,0,0,0.8);
-<<<<<<< HEAD
 }
 
 .nav-height .navbar-brand {
@@ -22,8 +21,6 @@
 .nav-height .navbar-toggle {
   padding: 10px;
   margin: 25px 15px 25px 0;
-=======
->>>>>>> gh-pages
 }
 
 .nav-height .navbar-brand {
@@ -49,6 +46,7 @@
     color: #fff;
     padding: 25px;
 }
+
 
 
 /* Title */
@@ -77,7 +75,7 @@
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
     color: #e2e2e2;
-    background-color: #000;
+    background-color: transparent;
 }
 /* Caret */
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
@@ -97,7 +95,7 @@
 }
 /* Mobile version */
 .navbar-inverse .navbar-toggle {
-    border-color: #000;
+    border-color: #fff;
 
 }
 .navbar-inverse .navbar-toggle:hover,
@@ -126,21 +124,19 @@
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #333333;
     }
-<<<<<<< HEAD
 
     a {
         color: #fff;
         text-decoration: none;
     }
 
-=======
+
 
     a {
         color: #fff;
         text-decoration: none;
     }
 
->>>>>>> gh-pages
     a:hover {
         color: #00a1de;
     }
@@ -235,7 +231,7 @@ blockquote {
      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25px);
      padding: 70px 0px;
      overflow: visible;
-<<<<<<< HEAD
+
 }
 
 .press-release {
@@ -244,7 +240,7 @@ blockquote {
 }
 
 .press-release:hover {
-=======
+
 }
 
 .press-release {
@@ -270,12 +266,10 @@ footer {
 }
 
 .white-links:hover  {
->>>>>>> gh-pages
     color: #e2e2e2;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 footer {
     background-color: #222222;
     padding: 70px;
@@ -292,6 +286,5 @@ footer {
     color: #e2e2e2;
     text-decoration: none;
 }
-=======
 
->>>>>>> gh-pages
+
