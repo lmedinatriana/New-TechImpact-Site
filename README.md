@@ -1,7 +1,3 @@
-# Bootstrap Template
+# TechImpact
 
-This is a basic template using Bootstrap 3, remember to change github repo with 
-
-git remote set-url origin_______
-
-paste new link in for_______# new-techImpact-Site
+Page has been updated. Date: 7/11/2017

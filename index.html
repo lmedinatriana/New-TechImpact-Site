@@ -1,4 +1,4 @@
-T<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,6 +9,7 @@ T<!DOCTYPE html>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,7 +20,7 @@ T<!DOCTYPE html>
   <body>
     <div class="nav-height">
       <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-        <div class="container-fluid">
+        <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,23 +35,25 @@ T<!DOCTYPE html>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="http://www.laguardia.edu/opencode/">Open Code</a></li>
-              <li><a href="https://docs.google.com/forms/d/11q6dsoD2PqxU1t8EjGjT1Pcf_KwmRqEwIZUmtbB8Hhg/">Apply</a></li>
-              <li><a href="ACE CATALOG">ACE Catalog</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="http://www.laguardia.edu/opencode/" target="_blank">OPEN CODE</a></li>
+              <li><a href="https://docs.google.com/forms/d/11q6dsoD2PqxU1t8EjGjT1Pcf_KwmRqEwIZUmtbB8Hhg/" target="_blank">APPLY</a></li>
+              <li><a href="http://www.laguardia.edu/ce/" target="_blank">CONTINUING EDUCATION</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
+                </a>
                 <ul class="dropdown-menu">
-                  <li><a href="http://www.lagcc.cuny.edu/ace/businessandcareer.aspx">Business and Career</a></li>
+                  <li><a href="http://www.laguardia.edu/uploadedFiles/CE/Content/Home/Summer-Catalog.pdf" target="_blank">ACE Catalog</a></li>
+                  <li><a href="http://www.lagcc.cuny.edu/ace/businessandcareer.aspx" target="_blank">Business and Career</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="http://www.lagcc.cuny.edu/ACE/Contact/Contact_(Map).aspx">Conctact Us</a></li>
+                  <li><a href="http://www.laguardia.edu/CE/Pages/Forms/inquiry-form/" target="_blank">Conctact Us</a></li>
                 </ul>
               </li>
             </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-    </div>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div>
         
         <!-- jumbotron banner -->
         <div id="jumbo-container">
@@ -58,7 +61,7 @@ T<!DOCTYPE html>
             <div class="container text-center">
               <h1>TechIMPACT</h1>
               <h3>Learn to code. Tuition free.</h3>
-              <button type="button" class="btn btn-lg cta-button">Apply Now</button>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4qfziqcR_zQwkicNnWhckRHmLZAXH9H2uxYhzuxyW7J6aeQ/viewform" target="_blank"><button type="button" class="btn btn-lg cta-button">Apply Now</button></a>
             </div>
           </div>
         </div>
@@ -113,7 +116,7 @@ T<!DOCTYPE html>
                   <h2>TechIMPACT</h2>
                   <p>Accelerated training in web development, software development and networking administration to help young adults launch careers in high growth, high demand technology jobs. Free to eligible young adults, aged 17-29. Delivered in partnership with General Assembly, Udacity, Software Guild and Uncubed.com.</p>
                   <p>TechIMPACT students learn programming fundamentals, product development, and web development to prepare for jobs as front-end web developers. Classes begin in February, 2017. Training will take place at LaGuardia and in General Assembly’s Web Development Immersive program. To see if you are eligible, and to begin the application process, please go to our online application. </p>
-                  <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4qfziqcR_zQwkicNnWhckRHmLZAXH9H2uxYhzuxyW7J6aeQ/viewform" class="btn btn-primary" role="button">Apply Now</a></p>
+                  <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4qfziqcR_zQwkicNnWhckRHmLZAXH9H2uxYhzuxyW7J6aeQ/viewform" class="btn btn-lg btn-thumb" role="button" target="_blank">Apply Now</a></p>
                 </div>
               </div>
             </div>
@@ -122,7 +125,7 @@ T<!DOCTYPE html>
                 <div class="caption">
                   <h2>OpenCode</h2>
                   <p>Affordable, high quality web development classes, including instruction in HTML, CSS, JavaScript and Ruby On Rails. Learn More about this program.</p>
-                  <p><a href="http://www.laguardia.edu/opencode/" class="btn btn-primary" role="button">Learn More</a></p>
+                  <p><a href="http://www.laguardia.edu/opencode/" target="_blank" class="btn btn-lg btn-thumb" role="button">Learn More</a></p>
                 </div>
               </div>
             </div>
@@ -133,64 +136,64 @@ T<!DOCTYPE html>
             <h2>Our Partners</h2>
             <div class="row text-center">
               <div class="col-sm-6 col-md-3">
-                <a href="https://generalassemb.ly/"><img src="images/GA.png" alt="General Assembly's Logo"></a>
+                <a href="https://generalassemb.ly/" target="_blank"><img src="images/GA.png" alt="General Assembly's Logo"></a>
               </div>
               <div class="col-sm-6 col-md-3">
-                <a href="http://www.ibm.com/us-en/"><img src="images/IBM.png" alt="IBM's logo"></a>
+                <a href="http://www.ibm.com/us-en/" target="_blank"><img src="images/IBM.png" alt="IBM's logo"></a>
               </div>
               <div class="col-sm-6 col-md-3">
-                <a href="http://www.longislandcityqueens.com/"> <img src="images/LICP.png" alt="LICP's Logo"></a>
+                <a href="http://www.longislandcityqueens.com/" target="_blank"> <img src="images/LICP.png" alt="LICP's Logo"></a>
               </div>
               <div class="col-sm-6 col-md-3">
-                <a href="http://www.nyc.gov/html/ohcd/html/workforce/workforce_investment_board.shtml"><img src="images/NYC.png" alt="NYC office of Workforce Development's Logo"></a>
+                <a href="http://www.nyc.gov/html/ohcd/html/workforce/workforce_investment_board.shtml" target="_blank"><img src="images/NYC.png" alt="NYC office of Workforce Development's Logo"></a>
               </div>
             </div>
             <div class="row text-center">
               <div class="col-sm-6 col-md-3">
-                <a href="http://www.thesoftwareguild.com/"><img src="images/SWG.png" alt="SWG's Logo"></a>
+                <a href="http://www.thesoftwareguild.com/" target="_blank"><img src="images/SWG.png" alt="SWG's Logo"></a>
               </div>
               <div class="col-sm-6 col-md-3">
-                <a href="https://www.udacity.com/"><img src="images/Udacity.png" alt="Udacity's Logo"></a>
+                <a href="https://www.udacity.com/" target="_blank"><img src="images/Udacity.png" alt="Udacity's Logo"></a>
               </div>
               <div class="col-sm-6 col-md-3">
-                <a href="http://uncubed.com/"><img src="images/Uncubed.png" alt="Uncubed's Logo"></a>
+                <a href="http://uncubed.com/" target="_blank"><img src="images/Uncubed.png" alt="Uncubed's Logo"></a>
               </div>
               <div class="col-sm-6 col-md-3">
-                <a href="https://www.walmart.com/"><img src="images/Walmart.png" alt="Walmart's Logo"></a>
+                <a href="https://www.walmart.com/" target="_blank"><img src="images/Walmart.png" alt="Walmart's Logo"></a>
               </div>
             </div>
           </div>
         </div>
         <div id="container-info">
           <div class="container">
-            <p class="text-muted">This workforce product was funded by a grant awarded by the U.S. Department of Labor’s Employment and Training Administration. The product was created by the grantee and does not necessarily reflect the official position of the U.S. Department of Labor. The U.S. Department of Labor makes no guarantees, warranties, or assurances of any kind, express or implied with respect to such information, including any information on linked sited and including, but not limited to accuracy of the information or its completeness, timeliness, usefulness, adequacy, continued availability, or ownership. This product is copyrighted by the institution that created it. </p>
-            <p class="text-muted">For more information, please <a href="https://www.laguardia.edu/Home/News/$3-9M-Federal-Grant-to-Train-At-Risk,-Disadvantaged-Young-People-for-Tech-Jobs/" target="_blank"> read press release</a></p>
+            <p>This workforce product was funded by a grant awarded by the U.S. Department of Labor’s Employment and Training Administration. The product was created by the grantee and does not necessarily reflect the official position of the U.S. Department of Labor. The U.S. Department of Labor makes no guarantees, warranties, or assurances of any kind, express or implied with respect to such information, including any information on linked sited and including, but not limited to accuracy of the information or its completeness, timeliness, usefulness, adequacy, continued availability, or ownership. This product is copyrighted by the institution that created it. </p>
+            <p>For more information, please <a href="https://www.laguardia.edu/Home/News/$3-9M-Federal-Grant-to-Train-At-Risk,-Disadvantaged-Young-People-for-Tech-Jobs/" target="_blank" class="press-release"> read press release.</a></p>
           </div>
         </div>
         <footer class="footer">
           <div class="container ">
             <div class="row">
               <div class="col-sm-6 col-md-6">
-                <h4>LaGuardia Community College</h4>
-                <p><a href="https://www.google.com/maps/dir//31-10+Thomson+Ave,+Long+Island+City,+NY+11101/@40.7439997,-73.9350126,17z/data=!4m13!1m4!3m3!1s0x89c2592b14a815f3:0xc620804c6e783243!2s31-10+Thomson+Ave,+Long+Island+City,+NY+11101!3b1!4m7!1m0!1m5!1m1!1s0x89c2592b14a815f3:0xc620804c6e783243!2m2!1d-73.9350126!2d40.7439997" target="_blank"> 31-10 Thomson Avenue</br>
+                <h4 class="footer-h4">LaGuardia Community College</h4>
+                <p><a class="white-links" href="https://www.google.com/maps/dir//31-10+Thomson+Ave,+Long+Island+City,+NY+11101/@40.7439997,-73.9350126,17z/data=!4m13!1m4!3m3!1s0x89c2592b14a815f3:0xc620804c6e783243!2s31-10+Thomson+Ave,+Long+Island+City,+NY+11101!3b1!4m7!1m0!1m5!1m1!1s0x89c2592b14a815f3:0xc620804c6e783243!2m2!1d-73.9350126!2d40.7439997" target="_blank"> 31-10 Thomson Avenue</br>
                 Long Island City, NY 11101</a></p>
-                <p><a href="tel:718-482-7200">(718) 482-7200</a></p>
+                <p><a class="white-links"  href="tel:718-482-7200">(718) 482-7200</a></p>
                 </br>
               </div>
               <div class="col-sm-6 col-md-3">
-                <h4>Links</h4>
-                <p><a href="https://www.laguardia.edu/about/" target="_blank">About</a></p>
-                <p><a href="https://www.laguardia.edu/Supporters-Friends/home/" target="_blank">Supporters & Friends</a></p>
-                <p><a href="https://www.laguardia.edu/Admissions/Visit-LaGuardia/" target="_blank">Visit LaGuardia</a></p>
-                <p><a href="https://www.laguardia.edu/home/LaGuardia-All-News/" target="_blank">News Center</a></p>
-                <p><a href="https://www.laguardia.edu/home/frontline/Default.aspx" target="_blank">Calendar</a></p>
-                <p><a href="https://www.laguardia.edu/About/Emergency-Closing-Notification/" target="_blank">Emergency Information</a></p>
+                <h4 class="footer-h4">Links</h4>
+                <p><a class="white-links" href="https://www.laguardia.edu/about/" target="_blank">About</a></p>
+                <p><a class="white-links" href="https://www.laguardia.edu/Supporters-Friends/home/" target="_blank">Supporters & Friends</a></p>
+                <p><a class="white-links" href="https://www.laguardia.edu/Admissions/Visit-LaGuardia/" target="_blank">Visit LaGuardia</a></p>
+                <p><a class="white-links" href="https://www.laguardia.edu/home/LaGuardia-All-News/" target="_blank">News Center</a></p>
+                <p><a class="white-links" href="https://www.laguardia.edu/home/frontline/Default.aspx" target="_blank">Calendar</a></p>
+                <p><a class="white-links" href="https://www.laguardia.edu/About/Emergency-Closing-Notification/" target="_blank">Emergency Information</a></p>
                 </br>
               </div>
               <div class="col-sm-6 col-md-3">
-                <h4>Connect with us</h4>
-                <p><a href="https://www.facebook.com/LaGuardiaCC" target="_blank">Like Us</a></p>
-                <p><a href="https://twitter.com/LaGuardiaCC" target="_blank">Follow Us</a></p>
+                <h4 class="footer-h4">Connect with us</h4>
+                <p><a class="white-links" href="https://www.facebook.com/LaGuardiaCC" target="_blank">Like Us</a></p>
+                <p><a class="white-links" href="https://twitter.com/LaGuardiaCC" target="_blank">Follow Us</a></p>
                 </br>
               </div>
             </div>
