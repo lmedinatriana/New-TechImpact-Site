@@ -7,7 +7,7 @@
     z-index: 1030;
     border-radius: 0px;
     border: transparent;
-    background-color: #000;
+    background:rgba(1,0,0,0.8);
 }
 
 .nav-height .navbar-brand {
@@ -86,6 +86,8 @@
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
+
+
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #fff;
@@ -104,24 +106,18 @@
     background-color: #333333;
     }
 
-a {
-    color: #fff;
-    text-decoration: none;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #00a1de;
+    }
+    
 }
 
-a:hover {
-    color: #00a1de;
-}
-}
 
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #00a1de;
-}
 
 #jumbo-container {
     display: flex;
@@ -149,19 +145,17 @@ a:hover {
 }
 
 .cta-button {
-    background-color: #F1AD1F;
-    margin-top: 20px;
-    color: black;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fff;
-
+    background-color: transparent;
+    border: 2px solid #e2e2e2;
+    color: #e2e2e2;
+    margin-top: 30px;
 }
 
 .cta-button:hover {
-    background-color: #f3bd4b;
-    transform: scale(1.1);
+    background-color: #f1ad1f;
+    border: 2px solid #f1ad1f;
     color: #fff;
+
 }
 
 #main-container {
@@ -170,6 +164,8 @@ a:hover {
     padding: 50px 0px;
     text-align: center;
 }
+
+
 
 .thumbnail {
     background-color: #013A6B;
@@ -180,6 +176,18 @@ a:hover {
     border: 0px;
 }
 
+.btn-thumb {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+    margin-top: 15px;
+} 
+
+.btn-thumb:hover {
+    background-color: #e2e2e2;
+    color: #333;
+    border: 2px solid #e2e2e2;
+}
 
 #container-program {
     background-image: url('../images/img11.jpg');
@@ -199,17 +207,29 @@ blockquote {
      overflow: visible;
 }
 
-footer{
-    background-color: #222222;
-    padding: 70px;
-    color: #fff;
-}
-
 .press-release {
     color: #000;
     font-weight: bold;
 }
 
 .press-release:hover {
-    color: #337ab7;
+    color: #e2e2e2;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222222;
+    padding: 70px;
+}
+
+.footer-h4{
+    color: #fff;
+}
+.white-links {
+    color: #737373;
+}
+
+.white-links:hover  {
+    color: #e2e2e2;
+    text-decoration: none;
 }
